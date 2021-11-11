@@ -1,0 +1,44 @@
+@mixin display() {
+  display: flex;
+  justify-content: space-between;
+}
+$primary-color: #0b0d17;
+$secondry-color: #d0d6f9;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Bellefair", serif;
+  margin: 0px;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+// body.home {
+//   background-image: url("../home/background-home-desktop.jpg");
+// }
+// @media (max-width: 991px) {
+//   body.home {
+//     background-image: url("../home/background-home-tablet.jpg");
+//   }
+// }
+// @media (max-width: 767px) {
+//   body.home {
+//     background-image: url("../home/background-home-mobile.jpg");
+//   }
+// }
+span.active {
+  border-bottom: 3px white solid;
+}
+.dots span.active {
+  opacity: 100% !important;
+}
